@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "amini-crop-classification"
+version = "0.1.0"
+description = ""
+authors = ["sammygis <adedoyinsamuel25@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scikit-learn = "^1.6.1"
+ipykernel = "^6.29.5"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+polars = "^1.26.0"
+imblearn = "^0.0"
+pyarrow = "^19.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
